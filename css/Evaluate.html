@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Rank</title>
+    <link rel="stylesheet" href="evaluation.css">
+   
+</head>
+<body>
+    <div class="container">
+    <form>
+       <div>
+        <h1 class="title">Student Grade Evaluator</h1>
+       </div>
+       <div>
+        <th class="Name">Student Name:</th>
+        <th><input type="name" id="Name"></th>
+	</div>
+
+       <div>
+        <h3>List of Subjects:</h3>
+       </div>
+       
+         <table>
+            <tr>
+                <th class="SubjectTitle" align="center">Subject Title</th>
+                <th class="Grade" align="center">Grade</th>
+                <th class="Remarks"align= "center">Remarks</th>
+            </tr>
+            <tr>
+                <th class="math">Math</th>
+                <th><input type="number" id="Math"></th>
+                <th id="MathRemarks" type="hidden">Evaluation</th>
+            </tr>
+            <tr>
+                <th class="science">Science</th>
+                <th><input type="number" id="Science"></th>
+                <th id="ScienceRemarks" type="hidden">Evaluation</th>
+            </tr>
+            <tr>
+                <th class="english">English</th>
+                <th><input type="number" id="English"></th>
+                <th id="EnglishRemarks" type="hidden">Evaluation</th>
+            </tr>
+            <tr>
+                <th class=filipino>Filipino</th>
+                <th><input type="number" id="Filipino"></th>
+                <th id="FilipinoRemarks" type="hidden">Evaluation</th>
+                
+            </tr>
+            <tr>
+                <th class="pe">P.E.</th>
+                <th><input type="number" id="PE"></th>
+                <th id="PERemarks" type="hidden">Evaluation</th>
+
+            </tr>
+       
+    <tr>
+        <th class="blank">Student Rank:</th>
+        <th id="StudentRank"></th>
+        <th class="RankHere">Rank Here</th>
+    </table>
+    </tr>
+    <div>
+       <input class="btn" type="button" value="Evaluate" onclick="Evaluate()">
+   </div>
+</form>
+<div>
+    <script src="main.js"></script>
+            
+</body>
+</html>

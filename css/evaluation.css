@@ -1,0 +1,160 @@
+body{
+    background:linear-gradient(to right, #0052d4, #4364F7,#6fb1fc);
+}
+
+
+.container{
+    background-color: gold;
+    padding: 2%;
+    margin-left:31%;
+    margin-top: 7%;
+    float: left;
+    height: 80%;
+    width: 38%;
+   
+}
+.title{
+    text-align: left;
+    color:gray;
+    margin: 0;
+    padding-bottom: 5%;
+    font-style: inherit;
+  
+}
+.SName{
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+#StudentName{
+    height: 15%;
+    width: 50%;
+    padding: 2%;
+    border-radius: 5%;
+  
+}
+.SubjectTitle{
+    color: gray;
+    margin-top: 5%;
+    text-align: left;
+    
+}
+.Grade{
+    color: gray;
+    margin-top: 5%;
+}
+    
+.Remarks{
+    color: gray;
+    margin-top: 5%;
+    padding-left: 18%;
+   
+}
+.math{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2%;
+    
+}
+#Math{
+    width: 75%;
+    padding: 2%;
+    border-radius: 10%;
+   
+}
+#MathRemarks{
+    font-size: 20px;
+    color: gray;
+    padding-left: 14%;
+    
+}
+.science{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2%;
+    
+}
+#Science{
+    width: 75%;
+    padding: 2%;
+    border-radius: 10%;
+   
+
+}
+#ScienceRemarks{
+    font-size: 20px;
+    color: gray;
+    padding-left: 14%;
+  
+}
+
+.english{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2%;
+}
+#English{
+    width: 75%;
+    padding: 2%;
+    border-radius: 10%;
+    
+}
+#EnglishRemarks{
+    font-size: 20px;
+    color: gray;
+    padding-left: 14%;
+}
+.filipino{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2%;
+}
+#Filipino{
+    width: 75%;
+    padding: 2%;
+    border-radius: 10%;
+    
+}
+#FilipinoRemarks{
+    font-size: 20px;
+    color: gray;
+    padding-left: 14%;
+}
+
+.pe{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2%;
+}
+#PE{
+    height: 15%;
+    width: 75%;
+    padding: 2%;
+    border-radius: 10%;
+    
+}
+#PERemarks{
+    font-size: 20px;
+    color: gray;
+    padding-left: 14%;
+}
+.blank{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+.RankHere{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    background-color: blue;
+   padding: 8px;
+    width: 15%;
+}
+
+
+

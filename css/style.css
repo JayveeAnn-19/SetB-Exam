@@ -1,0 +1,36 @@
+body{
+    background: rgb(22, 179, 241) url(../img/bg-img.png); 
+}
+.title{
+    position: relative;
+    padding-top: 40%;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+
+}
+.enter{
+    background: darkblue;
+    margin-top:0;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-left: 45%;
+    color: white;
+    border-radius: 10%;
+} 
+    
+.container1{
+    background-color:rgb(56, 56, 197);
+    margin-top:none;
+    height: 42.5rem;
+    width: 38.5rem;
+
+    right: -45.9rem;
+    position: relative;
+   
+    
+   
+   
+}
